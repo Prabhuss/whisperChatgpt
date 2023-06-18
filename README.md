@@ -1,4 +1,4 @@
-# whisperChatgpt
+# whisper Chatgpt
 send voice message and let chatgpt answer it
 This code uses OpenAI's GPT-3.5 language model and Gradio library to create an interactive audio interface with a virtual assistant. The assistant can transcribe and respond to audio inputs in real-time.
 The code initializes the OpenAI API by setting the API key. It also prepares the initial message for the assistant. The decipher function is the main method that takes an audio file as input, transcribes it using OpenAI's speech to text model, and generates a response from the assistant using the ChatCompletion model.
